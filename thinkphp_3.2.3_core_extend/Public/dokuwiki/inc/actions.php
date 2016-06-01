@@ -407,7 +407,7 @@ function act_save($act){
     //conflict check
     if($DATE != 0 && $INFO['meta']['date']['modified'] > $DATE )
         return 'conflict';
-
+	
     //save it
     saveWikiText($ID,con($PRE,$TEXT,$SUF,true),$SUM,$INPUT->bool('minor')); //use pretty mode for con
     //unlock it

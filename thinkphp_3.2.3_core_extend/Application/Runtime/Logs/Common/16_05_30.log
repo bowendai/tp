@@ -1,0 +1,12 @@
+[ 2016-05-30T14:53:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home-autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Home-autodesign
+
+[ 2016-05-30T15:14:08+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home-autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Home-autodesign
+

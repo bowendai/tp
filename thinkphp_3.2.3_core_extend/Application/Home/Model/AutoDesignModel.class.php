@@ -4,18 +4,9 @@ use Think\Model;
 
 class AutoDesignModel extends Model {
 	
-	protected $tableName = 'main';
-	
-	public function read2File($filename) {
-		
-		$fp = fopen($filename,"w");
-		if ($fp) {
+	protected $tableName = 'Topic';//含有表前缀
+	//protected $trueTableName = 'Users';//不含表前缀
 			
-		}
-		
-		fclose($fp);
-	}
-	
 	public function isExistDir($dir) {
 
 		if (is_dir($dir)) {

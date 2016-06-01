@@ -90,6 +90,35 @@ function p_wiki_xhtml($id, $rev='', $excuse=true,$date_at=''){
     return $ret;
 }
 
+function p_wiki_xhtml_dai_define($text){
+	
+	$ret = '';
+	$ret = p_render('xhtml',p_get_instructions_dai_define($text),$info,$date_at='');
+	
+	return $ret;
+}
+
+function p_get_instructions_dai_define($text){
+
+    $modes = p_get_parsermodes();
+
+    // Create the parser
+    $Parser = new Doku_Parser();
+
+    // Add the Handler
+    $Parser->Handler = new Doku_Handler();
+
+    //add modes to parser
+    foreach($modes as $mode){
+        $Parser->addMode($mode['mode'],$mode['obj']);
+    }
+
+    // Do the parsing
+    trigger_event('PARSER_WIKITEXT_PREPROCESS', $text);
+    $p = $Parser->parse($text);
+    //  dbg($p);
+    return $p;
+}
 /**
  * Returns the specified local text in parsed format
  *

@@ -57,7 +57,37 @@ $showSidebar = $hasSidebar && ($ACT=='show');
                     <?php tpl_flush() ?>
                     <?php tpl_includeFile('pageheader.html') ?>
                     <!-- wikipage start -->
-                    <?php tpl_content() ?>
+                    <?php //tpl_content() 
+						
+						switch($do){
+							case "detail":
+							
+								echo   p_wiki_xhtml_dai_define($detailinfoArr['content']);	
+								
+								break;
+								
+							case "edit":
+							
+								html_edit();
+								
+								break;
+								
+							case "preview":		
+							
+								global $PREVIEW_WIKI_CONTENT;	
+								html_edit();															
+								html_show($PREVIEW_WIKI_CONTENT);
+								
+								break;
+								
+							default:
+							
+								echo "display error";
+								
+								break;
+						}
+						
+					?>
                     <!-- wikipage stop -->
                     <?php tpl_includeFile('pagefooter.html') ?>
                 </div>
@@ -81,10 +111,10 @@ $showSidebar = $hasSidebar && ($ACT=='show');
                                 'view'  => 'main',
                                 'items' => array(
                                     'edit'      => tpl_action('edit',      true, 'li', true, '<span>', '</span>'),
-                                    'revert'    => tpl_action('revert',    true, 'li', true, '<span>', '</span>'),
+                                    //'revert'    => tpl_action('revert',    true, 'li', true, '<span>', '</span>'),
                                     'revisions' => tpl_action('revisions', true, 'li', true, '<span>', '</span>'),
                                     //'backlink'  => tpl_action('backlink',  true, 'li', true, '<span>', '</span>'),
-                                    'subscribe' => tpl_action('subscribe', true, 'li', true, '<span>', '</span>'),
+                                    //'subscribe' => tpl_action('subscribe', true, 'li', true, '<span>', '</span>'),
                                     'top'       => tpl_action('top',       true, 'li', true, '<span>', '</span>')
                                 )
                             );

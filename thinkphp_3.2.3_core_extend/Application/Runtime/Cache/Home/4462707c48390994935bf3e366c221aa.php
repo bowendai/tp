@@ -64,14 +64,14 @@
 						<small>
 							<i class="icon-leaf"></i>
 							<!--<img src="/thinkphp_3.2.3_core_extend/Public/assets/images/LOGO.jpg" />-->
-								&nbsp;WIKI知识库 Demo
+								&nbsp;WIKI知识库 Demo &nbsp;&nbsp;&nbsp;&nbsp;
 						</small>
 					</a><!-- /.brand -->
 				</div><!-- /.navbar-header -->
 				
 				<div class="navbar-header pull-left">
 					<ul class="nav ace-nav">
-						<li class="green">
+						<li class="light-blue">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<!--<i class="icon-tasks"></i>-->
 								<span class="">导航下拉1</span>
@@ -81,7 +81,7 @@
 							<ul class="pull-left  dropdown-menu dropdown-caret dropdown-close"><!--pull-left小箭头靠左--->
 								
 								<li>
-									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index">
+									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index/id/20">
 										<div class="clearfix">
 											<span class="pull-left">自动化框架</span>
 											
@@ -90,7 +90,7 @@
 								</li>
 
 								<li>
-									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index">
+									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21">
 										<div class="clearfix">
 											<span class="pull-left">自动化设计</span>
 										</div>
@@ -99,7 +99,7 @@
 							</ul>
 						</li>
 					
-						<li class="green">
+						<li class="light-blue">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<!--<i class="icon-tasks"></i>-->
 								<span class="">导航下拉2</span>
@@ -109,7 +109,7 @@
 							<ul class="pull-left dropdown-navbar dropdown-menu dropdown-caret dropdown-close"><!--pull-left小箭头靠左--->
 								
 								<li>
-									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index">
+									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index/id/20">
 										<div class="clearfix">
 											<span class="pull-left">自动化框架</span>
 											<!--<span class="pull-right">15%</span>-->
@@ -119,7 +119,7 @@
 								</li>
 
 								<li>
-									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index">
+									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21">
 										<div class="clearfix">
 											<span class="pull-left">自动化设计</span>
 											<!--<span class="pull-right">90%</span>-->
@@ -138,13 +138,13 @@
 
 							<ul class="user-menu pull-left dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
 								<li>
-									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index">
+									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index/id/20">
 										自动化框架
 									</a>
 								</li>
 								<!--<li class="divider"></li>-->
 								<li>
-									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index">										
+									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21">										
 										自动化设计
 									</a>
 								</li>
@@ -189,7 +189,7 @@
 				
 				<div class="navbar-header pull-right" role="navigation">
 					<ul class="nav ace-nav">
-						<li class="grey">
+						<!--<li class="grey">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="icon-tasks"></i>
 								<span class="badge badge-grey">4</span>
@@ -396,7 +396,7 @@
 									</a>
 								</li>
 							</ul>
-						</li>
+						</li>-->
 
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
@@ -504,14 +504,14 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index" >
+									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index/id/20" >
 										<i class="icon-double-angle-right"></i>
 										自动化框架
 									</a>
 								</li>
 
 								<li>
-									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index">
+									<a href="/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21">
 										<i class="icon-double-angle-right"></i>
 										自动化设计
 									</a>

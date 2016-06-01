@@ -1,0 +1,25 @@
+
+11  
+11  
+11  {{ :autodesign:ceshi.png?200 |}}
+qwe112
+====== 你好 ======
+
+
+{{:autodesign:ceshi.png}}
+
+
+<p>
+<a href="/thinkphp_3.2.3_core_extend/Public/dokuwiki/lib/exe/detail.php?id=1&amp;media=autodesign:ceshi.png" class="media" title="autodesign:ceshi.png"><img src="/thinkphp_3.2.3_core_extend/Public/dokuwiki/lib/exe/fetch.php?w=200&amp;tok=a157ee&amp;media=autodesign:ceshi.png" class="mediacenter" alt="" width="200" /></a>
+qwe112
+</p>
+
+<h1 class="sectionedit1" id="你好">你好</h1>
+<div class="level1">
+
+<p>
+<a href="/thinkphp_3.2.3_core_extend/Public/dokuwiki/lib/exe/detail.php?id=1&amp;media=autodesign:ceshi.png" class="media" title="autodesign:ceshi.png"><img src="/thinkphp_3.2.3_core_extend/Public/dokuwiki/lib/exe/fetch.php?media=autodesign:ceshi.png" class="media" alt="" /></a>
+</p>
+
+</div>
+

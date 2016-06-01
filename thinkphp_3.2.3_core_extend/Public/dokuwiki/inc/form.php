@@ -269,6 +269,8 @@ class Doku_Form {
             if (is_array($element)) {
                 $elem_type = $element['_elem'];
                 if (function_exists('form_'.$elem_type)) {
+					//var_dump('form_'.$elem_type) ;
+					//form_wikitext()中读取内容
                     $form .= call_user_func('form_'.$elem_type, $element).DOKU_LF;
                 }
             } else {
@@ -738,12 +740,16 @@ function form_hidden($attrs) {
  * @return string html
  */
 function form_wikitext($attrs) {
+	
+	global $PREVIEW_WIKI_CONTENT;
+	
     // mandatory attributes
     unset($attrs['name']);
     unset($attrs['id']);
     return '<textarea name="wikitext" id="wiki__text" dir="auto" '
                  .buildAttributes($attrs,true).'>'.DOKU_LF
-                 .formText($attrs['_text'])
+                 //.formText($attrs['_text'])
+				 .$PREVIEW_WIKI_CONTENT
                  .'</textarea>';
 }
 

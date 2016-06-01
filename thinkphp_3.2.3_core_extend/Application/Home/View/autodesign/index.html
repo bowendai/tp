@@ -71,6 +71,7 @@
 		
 		
 		<div class="page-content">
+			
 			<?php
 			
 				require_once './Public/dokuwiki/doku.php';
@@ -80,7 +81,9 @@
 				
 				for($i = 0; $i < count($autoinfoArr); $i++){
 				
-					$ID="autodesign:".$autoinfoArr[$i]["title"];
+					//$ID="autodesign:".$autoinfoArr[$i]["title"];
+					//$ID=$navigation_id.':'.$autoinfoArr[$i]["title"];
+					//$ID = $verArr[$i]['id'];
 			?>	
 				<!--<div class="row">-->
 					<div class="col-xs-12">
@@ -88,16 +91,21 @@
 							<h2>welcome</h2>
 						</div>-->
 						<h2 class="header smaller lighter blue">
-							<a href="__ROOT__/index.php/Home/autodesign/detail?id={$ID}">{$autoinfoArr[$i].title}</a>
+							<a href="__ROOT__/index.php/Home/autodesign/detail?id={$verArr[$i]['id']}">{$autoinfoArr[$i].title}</a>
 							&nbsp;<small>创建时间:{$autoinfoArr[$i].create_time}</small>
 						</h2>
 					</div>
 				<!--</div>
 				<div class="row">-->
 					<div class="col-xs-12">
-						<!--<div class="well">-->
-							<font size=+1><?php include(template('thumbnail.php')); ?></font>
-						<!--</div>-->
+						<div class="well">
+							<font size=+1>
+								<?php 
+									echo   p_wiki_xhtml_dai_define($verArr[$i]['content']);
+									//p_wiki_xhtml($ID,$REV,true,$DATE_AT);break;//html_show();//include(template('thumbnail.php')); 
+								?>
+							</font>
+						</div>
 					</div>
 				<!--</div>-->
 			<?php }?>

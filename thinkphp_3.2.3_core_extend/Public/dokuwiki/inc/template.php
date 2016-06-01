@@ -585,7 +585,13 @@ function tpl_actionlink($type, $pre = '', $suf = '', $inner = '', $return = fals
             $linktarget = $id;
         } else {
             $linktarget = wl($id, $params);
+			
+			if($params['do']=="")
+				$linktarget = DOKU_BASE.'index.php/Home/autodesign/'.'detail'.$linktarget;
+			else
+				$linktarget = DOKU_BASE.'index.php/Home/autodesign/'.$params['do'].$linktarget;
         }
+				
         $caption = $lang['btn_'.$type];
         if(strpos($caption, '%s')){
             $caption = sprintf($caption, $replacement);
@@ -667,9 +673,11 @@ function tpl_get_action($type) {
                         $params['do'] = 'draft';
                     } else {
                         $params['rev'] = $REV;
-                        if(!$INFO['exists']) {
+						
+						//dai note
+                        /*if(!$INFO['exists']) {
                             $type = 'create';
-                        }
+                        }*/
                     }
                 } else {
                     if(!actionOK('source')) return false; //pseudo action

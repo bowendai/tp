@@ -268,7 +268,9 @@ function html_show($txt=null){
         echo '<br id="scroll__here" />';
         echo p_locale_xhtml('preview');
         echo '<div class="preview"><div class="pad">';
-        $html = html_secedit(p_render('xhtml',p_get_instructions($txt),$info),$secedit);
+    //    $html = html_secedit(p_render('xhtml',p_get_instructions($txt),$info),$secedit);
+        $html = html_secedit(p_render('xhtml',p_get_instructions_dai_define($txt),$info),$secedit);
+
         if($INFO['prependTOC']) $html = tpl_toc(true).$html;
         echo $html;
         echo '<div class="clearer"></div>';
@@ -1829,7 +1831,7 @@ function html_edit(){
         $form->addElement(form_makeOpenTag('div', array('class'=>'editButtons')));
         $form->addElement(form_makeButton('submit', 'save', $lang['btn_save'], array('id'=>'edbtn__save', 'accesskey'=>'s', 'tabindex'=>'4')));
         $form->addElement(form_makeButton('submit', 'preview', $lang['btn_preview'], array('id'=>'edbtn__preview', 'accesskey'=>'p', 'tabindex'=>'5')));
-        $form->addElement(form_makeButton('submit', 'draftdel', $lang['btn_cancel'], array('tabindex'=>'6')));
+        $form->addElement(form_makeButton('submit', 'draftdel', $lang['btn_cancel'], array('id'=>'edbtn__cancel','tabindex'=>'6')));
         $form->addElement(form_makeCloseTag('div'));
         $form->addElement(form_makeOpenTag('div', array('class'=>'summary')));
         $form->addElement(form_makeTextField('summary', $SUM, $lang['summary'], 'edit__summary', 'nowrap', array('size'=>'50', 'tabindex'=>'2')));

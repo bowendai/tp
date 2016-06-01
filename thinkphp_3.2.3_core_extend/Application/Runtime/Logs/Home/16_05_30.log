@@ -2591,3 +2591,2182 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2016-05-30T09:54:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_main` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `tp_main` WHERE ( parentid=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\init.php 第 164 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\init.php 第 182 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\auth.php 第 535 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/a/ae1b30447eddda0c0157424324516774.metadata D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/a/ae1b30447eddda0c0157424324516774.i D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 17 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/tpl/dokuwiki/style.ini D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/8/84654f3ecda2c68740bf377b445d8219.metadata D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/8/84654f3ecda2c68740bf377b445d8219.i D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/8/84654f3ecda2c68740bf377b445d8219.xhtml D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 1111 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 1111 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 12 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 17 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/tpl/dokuwiki/style.ini D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/c/c632c431680cc900efc1716f2ef9c6ac.metadata D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/c/c632c431680cc900efc1716f2ef9c6ac.i D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/c/c632c431680cc900efc1716f2ef9c6ac.xhtml D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 12 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 17 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/tpl/dokuwiki/style.ini D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/5/57e659457a3c59a68c08a7299f53276d.metadata D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/5/57e659457a3c59a68c08a7299f53276d.i D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/5/57e659457a3c59a68c08a7299f53276d.xhtml D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T09:54:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_main` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_main` WHERE ( parentid=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\init.php 第 164 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\init.php 第 182 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\auth.php 第 535 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 17 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/tpl/dokuwiki/style.ini D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 12 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 17 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/tpl/dokuwiki/style.ini D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 12 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\thumbnail.php 第 17 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/tpl/dokuwiki/style.ini D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T09:54:47+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_main` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: do D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Application\Home\Controller\AutodesignController.class.php 第 51 行.
+NOTIC: [8] Undefined index: do D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Application\Home\Controller\AutodesignController.class.php 第 53 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\init.php 第 164 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\init.php 第 182 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\auth.php 第 535 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: conf D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 14 行.
+NOTIC: [8] Undefined variable: conf D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 17 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 17 行.
+NOTIC: [8] Undefined variable: conf D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 20 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/tpl/dokuwiki/style.ini D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\plugins\authmysql\auth.php 第 877 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T09:54:49+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_main` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: do D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Application\Home\Controller\AutodesignController.class.php 第 51 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\init.php 第 164 行.
+NOTIC: [8192] Function set_magic_quotes_runtime() is deprecated D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\init.php 第 182 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\auth.php 第 535 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 84 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/purgefile D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 249 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: conf D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 14 行.
+NOTIC: [8] Undefined variable: conf D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 17 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 17 行.
+NOTIC: [8] Undefined variable: conf D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 20 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/local.protected.php D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for ./Public/dokuwiki/conf/tpl/dokuwiki/style.ini D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php 第 306 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/c/c694404850e18fb97a60871681df3817.xhtml D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [2] filemtime(): stat failed for D:/ceshi/htdocs/thinkphp_3.2.3_core_extend/Public/dokuwiki/data/cache/c/c694404850e18fb97a60871681df3817.i D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\cache.php 第 77 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\renderer.php 第 783 行.
+NOTIC: [8] Undefined offset: 1 D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\parser\xhtml.php 第 854 行.
+NOTIC: [8] Undefined index: REMOTE_USER D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\html.php 第 1902 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\plugins\authmysql\auth.php 第 877 行.
+NOTIC: [8] Undefined variable: lang D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\lib\tpl\dokuwiki\main.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\Public\dokuwiki\inc\template.php:1820) D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:00:15+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\ceshi\htdocs\thinkphp_3.2.3_core_extend\ThinkPHP\Common\functions.php 第 1263 行.
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:01:56+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:02:00+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:02:01+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:02:07+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:02:09+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:02:10+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:02:13+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:02:38+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:02:40+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:02:40+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:02:40+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:02:56+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `auto_design`
+
+[ 2016-05-30T10:02:57+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : SHOW COLUMNS FROM `auto_design`
+
+[ 2016-05-30T10:03:46+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:03:54+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:04:48+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Model:getFilenames方法不存在！
+
+[ 2016-05-30T10:07:59+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'ceshidb.tp_auto_design' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_auto_design`
+
+[ 2016-05-30T10:08:41+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.auto_design' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `auto_design`
+
+[ 2016-05-30T10:09:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.main' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `main`
+
+[ 2016-05-30T10:09:35+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-05-30T10:09:49+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-05-30T10:10:03+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:10:06+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:11:21+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:11:50+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.group' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `group`
+
+[ 2016-05-30T10:12:49+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:13:05+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:13:31+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:13:52+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:14:00+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:14:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `name` FROM `groups` WHERE ( id=1 ) LIMIT 1  
+
+[ 2016-05-30T10:15:04+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:15:07+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `name` FROM `groups` WHERE ( id=1 ) LIMIT 1  
+
+[ 2016-05-30T10:15:13+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:15:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:16:08+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:24:10+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:24:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:24:32+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:24:32+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:25:33+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:25:35+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:25:37+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:25:50+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:25:54+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:25:57+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:25:58+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:26:29+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:26:32+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:26:35+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T10:26:40+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:26:42+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:27:15+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:27:17+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:27:19+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:27:19+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:27:26+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:27:31+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:27:31+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:27:32+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:28:20+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:28:23+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T10:28:23+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:29:18+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:29:21+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:29:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T10:29:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:29:29+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:29:55+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:29:55+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:37:10+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_users`
+
+[ 2016-05-30T10:39:28+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:40:30+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:42:46+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:47:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:47:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:48:03+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:49:58+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%80%E6%BA%90%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:50:03+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2016-05-30T10:50:36+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:50:58+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%80%E6%BA%90%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:51:14+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%80%E6%BA%90%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:51:25+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%80%E6%BA%90%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:51:28+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%80%E6%BA%90%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:51:36+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%80%E6%BA%90%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T10:51:37+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:51:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:51:41+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T10:51:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:51:47+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T10:51:48+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T12:43:01+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%80%E6%BA%90%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:39:41+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%80%E6%BA%90%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T14:43:13+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:43:15+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:43:27+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:43:29+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:43:35+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:43:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:43:51+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:43:51+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:44:46+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:44:48+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:44:56+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:44:56+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:48:05+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:49:29+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:49:30+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:49:33+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:49:35+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:49:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:49:42+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:49:42+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:50:43+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:50:46+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:50:48+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:50:52+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:50:56+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:50:56+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:53:56+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:03:20+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.tp_auto_design' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_auto_design`
+
+[ 2016-05-30T15:03:59+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_auto_design' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_auto_design`
+
+[ 2016-05-30T15:04:30+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2016-05-30T15:04:55+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:05:03+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2016-05-30T15:05:19+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: Think\Model:getDetailFileinfo方法不存在！
+
+[ 2016-05-30T15:05:57+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:06:19+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2016-05-30T15:07:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 1146:Table 'mydokuwiki.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2016-05-30T15:07:46+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2016-05-30T15:07:46+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2016-05-30T15:07:46+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2016-05-30T15:07:54+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2016-05-30T15:08:48+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_user`
+
+[ 2016-05-30T15:09:33+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T15:13:18+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `User`
+
+[ 2016-05-30T15:13:35+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:13:52+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_users`
+
+[ 2016-05-30T15:14:03+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_users`
+
+[ 2016-05-30T15:14:09+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_users`
+
+[ 2016-05-30T15:14:16+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:14:21+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:17:53+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:18:23+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:18:29+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_users`
+
+[ 2016-05-30T15:19:59+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'mydokuwiki.tp_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_users`
+
+[ 2016-05-30T15:20:01+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_users`
+
+[ 2016-05-30T15:20:37+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mydokuwiki`.`tp_users`
+
+[ 2016-05-30T15:20:42+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'mydokuwiki.tp_users' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `mydokuwiki`.`tp_users`
+
+[ 2016-05-30T15:23:40+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:29:24+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:29:29+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:29:41+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-30T15:30:17+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:31:51+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:32:29+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:32:35+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:32:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:32:40+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:38:52+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:38:55+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:38:58+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:39:01+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T15:40:24+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:40:57+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:41:55+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:42:01+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:42:05+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autoframe/index/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:42:09+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:43:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:44:40+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:45:08+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:46:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:46:43+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:47:14+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:47:16+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:48:31+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:50:00+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:50:03+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:50:43+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:50:53+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:50:59+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:51:02+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:52:30+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:53:54+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:53:59+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:54:24+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:54:55+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:56:00+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:56:23+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:56:24+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:56:28+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:56:59+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:57:13+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:58:29+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21?id=autodesign:%E5%BC%95%E7%94%B3&do=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:58:41+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21?id=autodesign:%E5%BC%95%E7%94%B3&do=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T15:59:25+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3&do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:59:30+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T15:59:33+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T15:59:55+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/id/autodesign:%E5%BC%95%E7%94%B3/navigationid/21?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:00:27+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id/autodesign:%E5%BC%95%E7%94%B3&do=edit/navigationid/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:00:33+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id/autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:00:44+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:00:55+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit/auot/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:01:02+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit/auot/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T16:01:23+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?pageid/123/id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:01:44+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?pageid=123&id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:02:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/news/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:02:26+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:02:33+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?navigationid=21&id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:02:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:03:01+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?navigationid=21&id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:03:16+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/navigationid=21&id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:03:25+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/navigationid=21?id=autodesign:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:03:28+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail/navigationid=21?id=autodesign:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:04:25+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:07:38+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:08:03+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:08:13+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?navigationid=21&id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:09:14+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?navigationid=21&id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:09:17+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/index/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:09:21+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:09:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:10:21+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:10:24+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:10:25+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:27:06+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:27:09+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:27:12+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:27:12+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:30:58+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:31:00+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:31:02+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:31:02+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:32:40+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:32:41+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:32:44+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:32:44+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:33:10+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:33:12+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:33:12+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:34:06+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:34:09+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:34:09+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:41:43+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:41:48+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:41:50+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:41:50+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:42:05+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:42:07+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:42:09+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:42:09+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:42:30+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:42:31+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:42:33+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:42:33+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:42:59+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:43:00+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:43:02+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:43:02+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:45:51+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:46:06+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:46:11+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:46:13+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:46:48+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:46:50+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T16:46:53+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `Users` WHERE ( uid=1 and login=admin ) LIMIT 1  
+
+[ 2016-05-30T16:47:16+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:47:17+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:47:19+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T16:47:19+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:07:21+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:07:31+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:07:32+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:07:42+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:07:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:07:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:08:44+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:08:47+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:08:49+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:08:49+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:09:48+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:09:50+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:09:52+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:09:52+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:10:32+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:10:34+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:10:36+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:10:36+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T17:12:06+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:12:08+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:12:10+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:12:10+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:13:44+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:13:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:13:47+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:13:47+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:14:11+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:14:13+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:14:15+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:14:16+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:18:37+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:18:39+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:18:40+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:18:41+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:21:37+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T17:21:49+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:21:53+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1054:Unknown column '引申' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_topic` WHERE ( navigation_id=21 and title=引申 ) LIMIT 1  
+
+[ 2016-05-30T17:23:34+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:23:37+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:23:37+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:27:02+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:27:05+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:27:07+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:27:07','','2','2')
+
+[ 2016-05-30T17:28:13+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:28:13','','3','3')
+
+[ 2016-05-30T17:28:14+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:28:16+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:28:16','','4','4')
+
+[ 2016-05-30T17:29:28+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:29:31+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:29:31','','5','5')
+
+[ 2016-05-30T17:30:04+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:30:07+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:30:07','','6','6')
+
+[ 2016-05-30T17:30:51+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:30:53+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:30:53','','7','7')
+
+[ 2016-05-30T17:31:15+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:31:17+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:31:17','','8','8')
+
+[ 2016-05-30T17:31:46+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:31:47+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:31:47','','9','9')
+
+[ 2016-05-30T17:32:36+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:32:37+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:32:37','','10','10')
+
+[ 2016-05-30T17:33:47+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:33:50+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:33:50','','11','11')
+
+[ 2016-05-30T17:34:10+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:34:12+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:34:12','','12','12')
+
+[ 2016-05-30T17:36:04+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:36:06+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:36:06+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:36:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:36:24+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:36:24','','2','2')
+
+[ 2016-05-30T17:38:32+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:38:34+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T17:38:34+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:38:43+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:38:45+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:38:45','','2','2')
+
+[ 2016-05-30T17:40:16+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:40:18+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:40:18+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:40:32+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:40:34+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:40:34+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:41:23+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:41:25+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:41:25+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:41:29+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:41:32+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1062:Duplicate entry '引申' for key 'title'
+ [ SQL语句 ] : INSERT INTO `tp_topic` (`title`,`create_time`,`creater`,`create_version_id`,`cur_version_id`) VALUES ('引申','2016-05-30 17:41:32','','2','2')
+
+[ 2016-05-30T17:42:14+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:42:16+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:42:18+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and title="引申" ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_topic` WHERE ( navigation_id= and title="引申" ) LIMIT 1  
+
+[ 2016-05-30T17:42:54+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:42:58+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:42:59+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:43:01+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:43:01+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:43:20+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T17:43:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3&do=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T17:43:22+08:00 ] ::1 /thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=21:%E5%BC%95%E7%94%B3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
