@@ -696,6 +696,11 @@
 			#dw__toc{
 				display:none;
 			}
+			
+			.pagelist{ text-align:center; /*background:#f1f1f1;*/ padding:7px 0;}
+			.pagelist a{ margin:0 5px; border:#6185a2 solid 1px; display:inline-block; padding:2px 6px 1px; line-height:16px; background:#fff; color:#6185a2;}
+			.pagelist span{ margin:0 5px; border:#6185a2 solid 1px; display:inline-block; padding:2px 6px 1px; line-height:16px; color:#6185a2; color:#fff; background:#6185a2;}
+			
 		</style>
 
 		<script src="/svn/thinkphp_3.2.3_core_extend/Public/assets/js/ace-extra.min.js"></script>
@@ -735,9 +740,9 @@
 			$(document).ready(function(){
 				$("#sidebar").removeClass("menu-min");
 			
-				$("#createTopic").click(function(){
-					
-				});
+				//图片链接到新的标签
+				$('.well a').attr('target','_blank');
+				
 			});
 			
 		</script>
@@ -748,16 +753,17 @@
 			<div class="col-xs-12">
 				<a href="/svn/thinkphp_3.2.3_core_extend/index.php/Home/Autodesign/create/id/<?php echo ($navigation_id); ?>"><button id="createTopic" type="button" class="btn  btn-success">创建话题</button></a>
 			</div>
-			<?php
- for($i = 0; $i < count($autoinfoArr); $i++){ ?>	
-				<!--<div class="row">-->
+			
+			<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><!--<div class="row">-->
 					<div class="col-xs-12">
 						<!--<div class="col-sm-3">
 							<h2>welcome</h2>
 						</div>-->
 						<h2 class="header smaller lighter blue">
-							<a href="/svn/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=<?php echo ($verArr[$i]['id']); ?>&version=<?php echo ($verArr[$i]['version']); ?>"><?php echo ($autoinfoArr[$i]["title"]); ?></a>
-							&nbsp;<small>创建时间:<?php echo ($autoinfoArr[$i]["create_time"]); ?>&nbsp;&nbsp;&nbsp;当前正在使用版本号：<?php echo ($verArr[$i]["version"]); ?></small>
+							<!--<a href="/svn/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=<?php echo ($autoinfoArr[$i]['cur_version_id']); ?>&version=<?php echo ($verArr[$i]['version']); ?>"><?php echo ($autoinfoArr[$i]["title"]); ?></a>
+							&nbsp;<small>创建时间:<?php echo ($autoinfoArr[$i]["create_time"]); ?>&nbsp;&nbsp;&nbsp;当前正在使用版本号：<?php echo ($verArr[$i]["version"]); ?></small>-->
+							<a href="/svn/thinkphp_3.2.3_core_extend/index.php/Home/autodesign/detail?id=<?php echo ($vo["cur_version_id"]); ?>&version=<?php echo ($vo["verArr"]["version"]); ?>"><?php echo ($vo["title"]); ?></a>
+							&nbsp;<small>创建时间:<?php echo ($vo["create_time"]); ?>&nbsp;&nbsp;&nbsp;当前正在使用版本号：<?php echo ($vo["verArr"]["version"]); ?></small>
 						</h2>
 					</div>
 				<!--</div>
@@ -765,14 +771,15 @@
 					<div class="col-xs-12">
 						<div class="well">
 							<font size=+1>
-								<?php  echo p_wiki_xhtml_dai_define($verArr[$i]['content']); ?>
+								<?php  echo p_wiki_xhtml_dai_define($vo['verArr']['content']); ?>
 							</font>
 						</div>
 					</div>
-				<!--</div>-->
-			<?php }?>
+				<!--</div>--><?php endforeach; endif; else: echo "" ;endif; ?>
 		</div>
+		
 	</div>
+	<div class="pagelist"><?php echo ($page); ?></div>
 	
 			
 			</div><!-- /.main-container-inner -->

@@ -724,7 +724,13 @@
 		<script src="/svn/thinkphp_3.2.3_core_extend/Public/assets/js/ace.min.js"></script>
 		
 		<script>
-			$("#sidebar").removeClass("menu-min");
+			$(document).ready(function(){
+				$("#sidebar").removeClass("menu-min");
+				
+				//图片链接到新的标签
+				$('#dokuwiki__content a').attr('target','_blank');
+			});
+			
 		</script>
 		
 			<div class="page-content">

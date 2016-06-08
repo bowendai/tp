@@ -3,6 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 use Think\Model;
 
+require_once './Public/dokuwiki/doku.php';
 /**
  * 自动化设计控制器
  */
@@ -10,37 +11,83 @@ use Think\Model;
 class AutoDesignController extends Controller {
     
 	
-	public function index() {
+	public function index() {		
 		
-		require_once './Public/dokuwiki/doku.php';
-		//$AutoDesignModel = new \Home\Model\AutoDesignModel();
-		$AutoDesignModel = M('Topic');
-		
-		$topic = $AutoDesignModel->where("navigation_id=%d",$_GET['id'])->select();
-		
-		$verModel = new Model();
-		for($i=0; $i<count($topic); $i++) {
-			$ver[] = $verModel->table('tp_version')->where("id={$topic[$i]['cur_version_id']}")->find();
-		}		
-		
-		if(count($topic)>0){
-			$this->assign('autoinfoArr', $topic);
-			$this->assign('verArr', $ver);
-			$this->assign('navigation_id',$_GET['id']);
+		$verModel = D("Version");		
+
+		$db = M("Topic");
+		$where = "navigation_id=".$_GET['id'];
+		$count = $db->where($where)->count();
+		$pagecount = 2;
+		$page = new \Think\Page($count , $pagecount);
+		//$page->parameter = $row; //此处的row是数组，为了传递查询条件
+		$page->setConfig('first','首页');
+		$page->setConfig('prev','上一页');
+		$page->setConfig('next','下一页');
+		$page->setConfig('last','尾页');
+		$page->setConfig('theme','%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END% 第 '.I('p',1).' 页/共 %TOTAL_PAGE% 页 ( '.$pagecount.' 条/页 共 %TOTAL_ROW% 条)');
+		$show = $page->show();
+		$list = $db->where($where)->order('id asc')->limit($page->firstRow.','.$page->listRows)->select();
+		for($i=0; $i<count($list); $i++){
+			$m = $verModel->where("id=%d",$list[$i]['cur_version_id'])->find();
+			$list[$i]['verArr']=$m; 
 		}
-		/*$dir = getcwd() . "/Public/dokuwiki/data/pages/autodesign";
+		$this->assign('list',$list);
+		$this->assign('page',$show);
 		
-		$filenames = $AutoDesignModel->getFilenames($dir);
+		$this->assign('navigation_id',$_GET['id']);
 		
-		if(count($filenames) > 0) {
-			
-			$fileinfos = $AutoDesignModel->getFileinfo($filenames,$dir);
-			
-			//var_dump($fileinfos);
-			
-			$this->assign('navigationid',$_GET['id']);
-			$this->assign('autoinfoArr',$fileinfos);
-		}*/
+		
+		
+		$this->display();
+	}
+	public function test() {
+		
+		//$AutoDesignModel = M('Topic');
+		
+		//$topic = $AutoDesignModel->where("navigation_id=%d",$_GET['id'])->select();
+		
+		//$verModel = D("Version");
+		// for($i=0; $i<count($topic); $i++) {
+			// $ver[] = $verModel->where("id={$topic[$i]['cur_version_id']}")->find();
+		// }		
+		
+		//if(count($topic)>0){
+		//	$this->assign('autoinfoArr', $topic);
+		//	$this->assign('verArr', $ver);			
+		//}
+		//
+		/* $count = $AutoDesignModel->where("navigation_id=%d",$_GET['id'])->count();// 查询满足要求的总记录数
+		$Page = new \Think\Page($count,2);// 实例化分页类 传入总记录数和每页显示的记录数(25)
+		$Page->setConfig('first','首页');
+		$Page->setConfig('prev','上一页');
+		$Page->setConfig('next','下一页');
+		$Page->setConfig('last','尾页');
+		$show   = $Page->show();// 分页显示输出// 进行分页数据查询 注意limit方法的参数要使用Page类的属性
+		$list = $AutoDesignModel->where("navigation_id=%d",$_GET['id'])->order('create_time')->limit($Page->firstRow.','.$Page->listRows)->select();
+		$this->assign('list',$list);// 赋值数据集
+		$this->assign('page',$show); */
+	//var_dump($count);
+		//var_dump($show);
+		//var_dump($list);
+		//$this->assign('navigation_id',$_GET['id']);
+	
+		$db = M("Topic");
+		$where = "navigation_id=".$_GET['id'];
+		$count = $db->where($where)->count();
+		$pagecount = 2;
+		$page = new \Think\Page($count , $pagecount);
+		//$page->parameter = $row; //此处的row是数组，为了传递查询条件
+		$page->setConfig('first','首页');
+		$page->setConfig('prev','上一页');
+		$page->setConfig('next','下一页');
+		$page->setConfig('last','尾页');
+		$page->setConfig('theme','%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END% 第 '.I('p',1).' 页/共 %TOTAL_PAGE% 页 ( '.$pagecount.' 条/页 共 %TOTAL_ROW% 条)');
+		$show = $page->show();
+		$list = $db->where($where)->order('id desc')->limit($page->firstRow.','.$page->listRows)->select();
+		$this->assign('list',$list);
+		$this->assign('page',$show);
+		
 		
 		
 		$this->display();
@@ -49,7 +96,7 @@ class AutoDesignController extends Controller {
 	
 	public function detail() {
 		
-		require_once './Public/dokuwiki/doku.php';
+		//require_once './Public/dokuwiki/doku.php';
 		$AutoDesignModel = new \Home\Model\AutoDesignModel();
 		
 		//if(!isset($_GET['id']))
@@ -101,7 +148,7 @@ class AutoDesignController extends Controller {
 	
 	public function edit() {
 		
-		require_once './Public/dokuwiki/doku.php';
+		//require_once './Public/dokuwiki/doku.php';
 		
 		if(!isset($_GET['do'])){
 			return ;
@@ -153,15 +200,15 @@ class AutoDesignController extends Controller {
 		$VersionModel = new Model();
 		if(!isset($_GET['id']))
 			return ;
-		$verid['id'] = $_GET['id'];
-		$topicidArr = $VersionModel->table('tp_version')->field('topic_id')->where($verid['id'])->find();
+		$veridArr['id'] = $_GET['id'];
+		$topicArr = $VersionModel->table('tp_version')->field('topic_id')->where($veridArr)->find();
 		
-		if($topicidArr){
-			$ver['topic_id'] = intval($topicidArr['topic_id']);
+		if($topicArr){
+			$ver['topic_id'] = intval($topicArr['topic_id']);
 			
 			$verid = $VersionModel->table('tp_version')->add($ver);
 			$cur_version_id['cur_version_id'] = $verid;
-			$TopicModel->where($topicidArr['topic_id'])->save($cur_version_id);
+			$TopicModel->where('id=%d',$topicArr['topic_id'])->save($cur_version_id);
 			
 			$this->redirect("Home/autodesign/detail",array('id'=>$verid,'version'=>$ver['version']));
 		}
@@ -178,7 +225,7 @@ class AutoDesignController extends Controller {
 		
 		$first = isset($_GET['first']) ? $_GET['first'] : 0;
 		
-		require_once './Public/dokuwiki/doku.php';
+		//require_once './Public/dokuwiki/doku.php';
 		
 		//var_dump($conf['recent']);
 				
@@ -276,16 +323,19 @@ class AutoDesignController extends Controller {
 	
 	public function create() {
 		
-		require_once './Public/dokuwiki/doku.php';
+		//require_once './Public/dokuwiki/doku.php';
 		if(!isset($_GET['id']))
 			return;
 		$id=$_GET['id'];
 		
-		$m = D('navigation');
-		$parentid['parentid'] = array('neq',0);
-		$navArr = $m->where($parentid)->select();
+		$navigation_id = $id;
+		$title = '';
 		
-		var_dump($navArr);
+		$m = D('Navigation');
+		$parentid['parentid'] = array('neq',0);
+		$navArr = $m->field('id,text')->where($parentid)->select();
+	
+		//var_dump($navArr);
 		
 		//var_dump($_POST);
 		//echo '<hr />';
@@ -299,9 +349,28 @@ class AutoDesignController extends Controller {
 			
 			$PREVIEW_WIKI_CONTENT = $_POST['wikitext'];
 			$do='preview';
+			
+			$navigation_id = $_POST['category'];	
+			$title = $_POST['title'];
 		}
 		if($act == 'save'){
+			 
+			$topic = D("Topic");
+			$topic_data['navigation_id'] = $_POST['category'];
+			$topic_data['title'] = $_POST['title'];
+			$topic_data['create_time'] = date("Y-m-d H:i:s",time());
+			$topic_id = $topic->add($topic_data);
 			
+			$version = D("Version");
+			$version_data['topic_id'] = $topic_id;
+			$version_data['modified_time'] = date("Y-m-d H:i:s",time());
+			$version_data['version'] = time();
+			$version_data['content'] = $_POST['wikitext'];
+			$verid = $version->add($version_data);
+			
+			$update_topic_data['cur_version_id'] = $verid;
+			$update_topic_data['create_version_id'] = $verid;
+			$topic->where('id=%d',$topic_id)->save($update_topic_data);
 			
 			$this->redirect('Home/autodesign/index',array('id'=>$id));
 		}
@@ -312,7 +381,8 @@ class AutoDesignController extends Controller {
 		}
 		
 		//$ACT = 'edit';
-		//$this->assign('navigation_id',$id);
+		$this->assign('navigation_id',$navigation_id);
+		$this->assign('title',$title);
 		$this->assign('do',$do);
 		$this->assign('navArr',$navArr);
 		$this->display();
