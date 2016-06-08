@@ -57,23 +57,24 @@
 				//$("#wiki__text").val(verShow);
 				
 				var verid = <?php echo $verShow['id']; ?>;
+				var version = <?php echo $verShow['version']; ?>;
 				//取消按钮
 				$("#edbtn__cancel").click(function(){
 					
-					$('#dw__editform').attr('action', '__URL__/detail?id='+verid);
+					$('#dw__editform').attr('action', '__URL__/detail?id='+verid+'&version='+version);
 					
 				});
 				
 				//预览按钮
 				$("#edbtn__preview").click(function(){
 					
-					$('#dw__editform').attr('action', '__URL__/edit?id='+verid+'&do=preview');
+					$('#dw__editform').attr('action', '__URL__/edit?id='+verid+'&do=preview&version='+version);
 					
 				});
 				
 				//保存按钮
 				$("#edbtn__save").click(function(){
-					$('#dw__editform').attr('action', '__URL__/add?id='+verid);
+					$('#dw__editform').attr('action', '__URL__/add?id='+verid+'&version='+version);
 				});
 				
 			});

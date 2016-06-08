@@ -586,10 +586,21 @@ function tpl_actionlink($type, $pre = '', $suf = '', $inner = '', $return = fals
         } else {
             $linktarget = wl($id, $params);
 			
-			if($params['do']=="")
-				$linktarget = DOKU_BASE.'index.php/Home/autodesign/'.'detail'.$linktarget;
-			else
-				$linktarget = DOKU_BASE.'index.php/Home/autodesign/'.$params['do'].$linktarget;
+			//var_dump($_REQUEST['rev']);
+            //$linktarget = wl(0, $params);
+            $linktarget .= '&version='.$_REQUEST['version'];
+			//echo __APP__    ;
+			//echo __ROOT__    ;
+			//echo __CONTROLLER__   ;
+			
+			if($params['do']==""){
+				//$linktarget = DOKU_BASE.'index.php/Home/autodesign/'.'detail'.$linktarget;
+				$linktarget = __CONTROLLER__.'/detail/'.$linktarget;
+			}				
+			else{
+				$linktarget = __CONTROLLER__.'/'.$params['do'].$linktarget;
+			}
+				
         }
 				
         $caption = $lang['btn_'.$type];

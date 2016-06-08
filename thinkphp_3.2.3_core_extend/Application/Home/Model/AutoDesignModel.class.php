@@ -73,7 +73,7 @@ class AutoDesignModel extends Model {
 	 * @param array|string $act
 	 * @return string
 	 */
-	function act_clean($act){
+	public static function act_clean($act){
 		// check if the action was given as array key
 		if(is_array($act)){
 			list($act) = array_keys($act);

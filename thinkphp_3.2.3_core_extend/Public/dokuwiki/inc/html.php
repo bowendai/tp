@@ -204,6 +204,8 @@ function html_btn($name, $id, $akey, $params, $method='get', $tooltip='', $label
         $script = /*DOKU_BASE*/DOKU_DAI_DEFINE.DOKU_SCRIPT;
         $params['id'] = $id;
     }
+	//dai modified
+	$script = __ACTION__;
 
     $ret .= '<form class="button btn_'.$name.'" method="'.$method.'" action="'.$script.'"><div class="no">';
 
@@ -674,6 +676,256 @@ function html_revisions($first=0, $media_id = false){
         }
         print '</div>';
     }
+    if ($hasNext) {
+        print '<div class="pagenav-next">';
+        if ($media_id) {
+            print html_btn('older',$media_id,"n",media_managerURL(array('first' => $last), '&amp;', false, true));
+        } else {
+            print html_btn('older',$id,"n",array('do' => 'revisions', 'first' => $last));
+        }
+        print '</div>';
+    }
+    print '</div>';
+
+}
+
+
+/**
+	$first:每页的第一条索引号
+	$revisions:版本号
+	$title:标题
+	$cur_version:当前版本号	
+*/
+function html_revisions_dai_define($first=0, $revisions=[], $title='', $cur_version='', $count, $media_id = false){
+    global $ID;
+    global $INFO;
+    global $conf;
+    global $lang;
+    $id = $ID;
+    if ($media_id) {
+        $id = $media_id;
+        $changelog = new MediaChangeLog($id);
+    } else {
+        $changelog = new PageChangeLog($id);
+    } 
+
+    /* we need to get one additional log entry to be able to
+     * decide if this is the last page or is there another one.
+     * see html_recent()
+     */
+
+    //$revisions = $changelog->getRevisions($first, $conf['recent']+1);
+
+    /* if(count($revisions)==0 && $first!=0){
+        $first=0;
+        $revisions = $changelog->getRevisions($first, $conf['recent']+1);
+    } */
+	//$revisions=array(1464152351,1464152345);
+	//var_dump($revisions);
+
+    $hasNext = false;
+	
+	//var_dump($conf['recent']);
+    /*if (count($revisions)>$conf['recent']) {
+        $hasNext = true;
+        array_pop($revisions); // remove extra log entry
+    }*/
+	
+	if(($first+1)+$conf['recent'] < $count){
+	//if(count($revisions) < $count){
+		$hasNext = true;
+	}else{
+		$hasNext = false;
+	}
+
+    if (!$media_id) $date = dformat($INFO['lastmod']);
+    else $date = dformat(@filemtime(mediaFN($id)));
+
+    if (!$media_id) print p_locale_xhtml('revisions');
+
+    $params = array('id' => 'page__revisions', 'class' => 'changes');
+    if ($media_id) $params['action'] = media_managerURL(array('image' => $media_id), '&');
+
+    $form = new Doku_Form($params);
+    $form->addElement(form_makeOpenTag('ul'));
+
+    /*if (!$media_id) $exists = $INFO['exists'];
+    else $exists = file_exists(mediaFN($id));*/
+	$exists = true;
+
+    $display_name = (!$media_id && useHeading('navigation')) ? hsc(p_get_first_heading($id)) : $id;
+    if (!$display_name) $display_name = $id;
+
+	$display_name = $title;
+	
+    if($exists && $first==0){
+        if (!$media_id && isset($INFO['meta']) && isset($INFO['meta']['last_change']) && $INFO['meta']['last_change']['type']===DOKU_CHANGE_TYPE_MINOR_EDIT)
+            $form->addElement(form_makeOpenTag('li', array('class' => 'minor')));
+        else
+            $form->addElement(form_makeOpenTag('li'));
+        $form->addElement(form_makeOpenTag('div', array('class' => 'li')));
+        $form->addElement(form_makeTag('input', array(
+                        'type' => 'checkbox',
+                        'name' => 'rev2[]',
+                        'value' => 'current')));
+
+        $form->addElement(form_makeOpenTag('span', array('class' => 'date')));
+		$date = dformat($cur_version);
+        $form->addElement($date);
+        $form->addElement(form_makeCloseTag('span'));
+
+        $form->addElement('<img src="'./*DOKU_BASE*/DOKU_DAI_DEFINE.'lib/images/blank.gif" width="15" height="11" alt="" />');
+
+        if (!$media_id) $href = wl($id);
+        else $href = media_managerURL(array('image' => $id, 'tab_details' => 'view'), '&');
+		
+		$href = __CONTROLLER__.'/detail/'.$href.'&version='.$cur_version;
+		
+        $form->addElement(form_makeOpenTag('a', array(
+                        'class' => 'wikilink1',
+                        'href'  => $href)));
+        $form->addElement($display_name);
+        $form->addElement(form_makeCloseTag('a'));//当前版本信息
+		
+
+        if ($media_id) $form->addElement(form_makeOpenTag('div'));
+
+        if (!$media_id) {
+            $form->addElement(form_makeOpenTag('span', array('class' => 'sum')));
+            $form->addElement(' – ');
+            $form->addElement(htmlspecialchars($INFO['sum']));
+            $form->addElement(form_makeCloseTag('span'));
+        }
+
+        $changelog->setChunkSize(1024);
+
+        $form->addElement(form_makeOpenTag('span', array('class' => 'user')));
+        if($media_id) {
+            $revinfo = $changelog->getRevisionInfo(@filemtime(fullpath(mediaFN($id))));
+            if($revinfo['user']) {
+                $editor = $revinfo['user'];
+            } else {
+                $editor = $revinfo['ip'];
+            }
+        } else {
+            $editor = $INFO['editor'];
+        }
+        $form->addElement((empty($editor))?('('.$lang['external_edit'].')'):editorinfo($editor));
+        $form->addElement(form_makeCloseTag('span'));
+
+        $form->addElement('('.$lang['current'].')');
+
+        if ($media_id) $form->addElement(form_makeCloseTag('div'));
+
+        $form->addElement(form_makeCloseTag('div'));
+        $form->addElement(form_makeCloseTag('li'));
+    }
+
+    foreach($revisions as $rev){
+		//剔除掉当前版本
+		if($rev == $cur_version)
+			continue;
+				
+        $date = dformat($rev);
+        $info = $changelog->getRevisionInfo($rev);
+        /*if($media_id) {
+            $exists = file_exists(mediaFN($id, $rev));
+        } else {
+            $exists = page_exists($id, $rev);
+        }*/
+		
+        if ($info['type']===DOKU_CHANGE_TYPE_MINOR_EDIT)
+            $form->addElement(form_makeOpenTag('li', array('class' => 'minor')));
+        else
+            $form->addElement(form_makeOpenTag('li'));
+        $form->addElement(form_makeOpenTag('div', array('class' => 'li')));
+        if($exists){
+            $form->addElement(form_makeTag('input', array(
+                            'type' => 'checkbox',
+                            'name' => 'rev2[]',
+                            'value' => $rev)));
+        }else{
+            $form->addElement('<img src="'./*DOKU_BASE*/DOKU_DAI_DEFINE.'lib/images/blank.gif" width="15" height="11" alt="" />');
+        }
+
+        $form->addElement(form_makeOpenTag('span', array('class' => 'date')));
+        $form->addElement($date);
+        $form->addElement(form_makeCloseTag('span'));
+
+        if($exists){
+            //if (!$media_id) $href = wl($id,"rev=$rev,do=diff", false, '&');
+            if (!$media_id) $href = wl($id,"version=$rev,do=diff", false, '&');
+            else $href = media_managerURL(array('image' => $id, 'rev' => $rev, 'mediado' => 'diff'), '&');
+			
+            $form->addElement(form_makeOpenTag('a', array('href' => $href, 'class' => 'diff_link')));
+            $form->addElement(form_makeTag('img', array(
+                            'src'    => /*DOKU_BASE*/DOKU_DAI_DEFINE.'lib/images/diff.png',
+                            'width'  => 15,
+                            'height' => 11,
+                            'title'  => $lang['diff'],
+                            'alt'    => $lang['diff'])));
+            $form->addElement(form_makeCloseTag('a'));
+            if (!$media_id) $href = wl($id,"version=$rev",false,'&');
+            else $href = media_managerURL(array('image' => $id, 'tab_details' => 'view', 'rev' => $rev), '&');
+			
+			$href = __CONTROLLER__.'/detail/'.$href;
+			
+            $form->addElement(form_makeOpenTag('a', array('href' => $href, 'class' => 'wikilink1')));
+            $form->addElement($display_name);
+            $form->addElement(form_makeCloseTag('a'));
+        }else{
+            $form->addElement('<img src="'./*DOKU_BASE*/DOKU_DAI_DEFINE.'lib/images/blank.gif" width="15" height="11" alt="" />');
+            $form->addElement($display_name);
+        }
+
+        if ($media_id) $form->addElement(form_makeOpenTag('div'));
+
+        if ($info['sum']) {
+            $form->addElement(form_makeOpenTag('span', array('class' => 'sum')));
+            if (!$media_id) $form->addElement(' – ');
+            $form->addElement('<bdi>'.htmlspecialchars($info['sum']).'</bdi>');
+            $form->addElement(form_makeCloseTag('span'));
+        }
+
+        $form->addElement(form_makeOpenTag('span', array('class' => 'user')));
+        if($info['user']){
+            $form->addElement('<bdi>'.editorinfo($info['user']).'</bdi>');
+            if(auth_ismanager()){
+                $form->addElement(' <bdo dir="ltr">('.$info['ip'].')</bdo>');
+            }
+        }else{
+            $form->addElement('<bdo dir="ltr">'.$info['ip'].'</bdo>');
+        }
+        $form->addElement(form_makeCloseTag('span'));
+
+        if ($media_id) $form->addElement(form_makeCloseTag('div'));
+
+        $form->addElement(form_makeCloseTag('div'));
+        $form->addElement(form_makeCloseTag('li'));
+    }
+    $form->addElement(form_makeCloseTag('ul'));
+    if (!$media_id) {
+        $form->addElement(form_makeButton('submit', 'diff', $lang['diff2']));
+    } else {
+        $form->addHidden('mediado', 'diff');
+        $form->addElement(form_makeButton('submit', '', $lang['diff2']));
+    }
+    html_form('revisions', $form);
+
+    print '<div class="pagenav">';
+    $last = $first + $conf['recent'];
+    if ($first > 0) {
+        $first -= $conf['recent'];
+        if ($first < 0) $first = 0;
+        print '<div class="pagenav-prev">';
+        if ($media_id) {
+            print html_btn('newer',$media_id,"p",media_managerURL(array('first' => $first), '&amp;', false, true));
+        } else {
+            print html_btn('newer',$id,"p",array('do' => 'revisions', 'first' => $first));
+        }
+        print '</div>';
+    }
+
     if ($hasNext) {
         print '<div class="pagenav-next">';
         if ($media_id) {
@@ -1186,6 +1438,88 @@ function html_diff_head($l_rev, $r_rev, $id = null, $media = false, $inline = fa
     return array($l_head, $r_head, $l_minor, $r_minor);
 }
 
+function html_diff_head_dai_define($diffInfo, $l_rev, $r_rev, $id = null, $media = false, $inline = false) {
+    global $lang;
+    if ($id === null) {
+        global $ID;
+        $id = $ID;
+    }
+    $head_separator = $inline ? ' ' : '<br />';
+    $media_or_wikiFN = $media ? 'mediaFN' : 'wikiFN';
+    $ml_or_wl = $media ? 'ml' : 'wl';
+    $l_minor = $r_minor = '';
+
+    if($media) {
+        $changelog = new MediaChangeLog($id);
+    } else {
+        $changelog = new PageChangeLog($id);
+    }
+    if(!$l_rev){
+        $l_head = '&mdash;';
+    }else{
+        $l_info   = $changelog->getRevisionInfo($l_rev);
+        if($l_info['user']){
+            $l_user = '<bdi>'.editorinfo($l_info['user']).'</bdi>';
+            if(auth_ismanager()) $l_user .= ' <bdo dir="ltr">('.$l_info['ip'].')</bdo>';
+        } else {
+            $l_user = '<bdo dir="ltr">'.$l_info['ip'].'</bdo>';
+        }
+        $l_user  = '<span class="user">'.$l_user.'</span>';
+        $l_sum   = ($l_info['sum']) ? '<span class="sum"><bdi>'.hsc($l_info['sum']).'</bdi></span>' : '';
+        if ($l_info['type']===DOKU_CHANGE_TYPE_MINOR_EDIT) $l_minor = 'class="minor"';
+	
+		//dai modified
+        //$l_head_title = ($media) ? dformat($l_rev) : $id.' ['.dformat($l_rev).']';
+        $l_head_title = ($media) ? dformat($l_rev) : $diffInfo['title'].' ['.dformat($l_rev).']';
+		
+        $l_head = '<bdi><a class="wikilink1" href="detail/'.$ml_or_wl($id,"version=$l_rev").'">'.
+        $l_head_title.'</a></bdi>'.
+        $head_separator.$l_user.' '.$l_sum;
+    }
+
+    if($r_rev){
+        $r_info   = $changelog->getRevisionInfo($r_rev);
+        if($r_info['user']){
+            $r_user = '<bdi>'.editorinfo($r_info['user']).'</bdi>';
+            if(auth_ismanager()) $r_user .= ' <bdo dir="ltr">('.$r_info['ip'].')</bdo>';
+        } else {
+            $r_user = '<bdo dir="ltr">'.$r_info['ip'].'</bdo>';
+        }
+        $r_user = '<span class="user">'.$r_user.'</span>';
+        $r_sum  = ($r_info['sum']) ? '<span class="sum"><bdi>'.hsc($r_info['sum']).'</bdi></span>' : '';
+        if ($r_info['type']===DOKU_CHANGE_TYPE_MINOR_EDIT) $r_minor = 'class="minor"';
+
+        //$r_head_title = ($media) ? dformat($r_rev) : $id.' ['.dformat($r_rev).']';
+        $r_head_title = ($media) ? dformat($r_rev) :  $diffInfo['title'].' ['.dformat($r_rev).']';
+	
+		$r_head = '<bdi><a class="wikilink1" href="detail/'.$ml_or_wl($id,"&version=$r_rev").'">'.
+		$r_head_title.'</a></bdi>'.
+		$head_separator.$r_user.' '.$r_sum;
+		
+    }else/* if($_rev = @filemtime($media_or_wikiFN($id))) */{
+        $_info   = $changelog->getRevisionInfo($_rev);
+        if($_info['user']){
+            $_user = '<bdi>'.editorinfo($_info['user']).'</bdi>';
+            if(auth_ismanager()) $_user .= ' <bdo dir="ltr">('.$_info['ip'].')</bdo>';
+        } else {
+            $_user = '<bdo dir="ltr">'.$_info['ip'].'</bdo>';
+        }
+        $_user = '<span class="user">'.$_user.'</span>';
+        $_sum  = ($_info['sum']) ? '<span class="sum"><bdi>'.hsc($_info['sum']).'</span></bdi>' : '';
+        if ($_info['type']===DOKU_CHANGE_TYPE_MINOR_EDIT) $r_minor = 'class="minor"';
+
+        $r_head_title = ($media) ? dformat($_rev) : $id.' ['.dformat($_rev).']';
+        $r_head  = '<bdi><a class="wikilink1" href="detail/'.$ml_or_wl($id).'">'.
+        $r_head_title.'</a></bdi> '.
+        '('.$lang['current'].')'.
+        $head_separator.$_user.' '.$_sum;
+    }/* else{
+        $r_head = '&mdash; ('.$lang['current'].')';
+    } */
+
+    return array($l_head, $r_head, $l_minor, $r_minor);
+}
+
 /**
  * Show diff
  * between current page version and provided $text
@@ -1401,6 +1735,225 @@ function html_diff($text = '', $intro = true, $type = null) {
     </div>
 <?php
 }
+
+
+function html_diff_dai_define($diffInfo, $text = '', $intro = true, $type = null) {
+    global $ID;
+    global $REV;
+    global $lang;
+    global $INPUT;
+    global $INFO;
+    $pagelog = new PageChangeLog($ID);
+
+    /*
+     * Determine diff type
+     */
+    if(!$type) {
+        $type = $INPUT->str('difftype');
+        if(empty($type)) {
+            $type = get_doku_pref('difftype', $type);
+            if(empty($type) && $INFO['ismobile']) {
+                $type = 'inline';
+            }
+        }
+    }
+    if($type != 'inline') $type = 'sidebyside';
+
+    /*
+     * Determine requested revision(s)
+     */
+    // we're trying to be clever here, revisions to compare can be either
+    // given as rev and rev2 parameters, with rev2 being optional. Or in an
+    // array in rev2.
+    $rev1 = $REV;
+
+    $rev2 = $INPUT->ref('rev2');
+    if(is_array($rev2)) {
+        $rev1 = (int) $rev2[0];
+        $rev2 = (int) $rev2[1];
+
+        if(!$rev1) {
+            $rev1 = $rev2;
+            unset($rev2);
+        }
+    } else {
+        $rev2 = $INPUT->int('rev2');
+    }
+
+    /*
+     * Determine left and right revision, its texts and the header
+     */
+    $r_minor = '';
+    $l_minor = '';
+
+    if($text) { // compare text to the most current revision
+        $l_rev = '';
+        $l_text = rawWiki($ID, '');
+        $l_head = '<a class="wikilink1" href="' . wl($ID) . '">' .
+            $ID . ' ' . dformat((int) @filemtime(wikiFN($ID))) . '</a> ' .
+            $lang['current'];
+
+        $r_rev = '';
+        $r_text = cleanText($text);
+        $r_head = $lang['yours'];
+    } else {
+        if($rev1 && isset($rev2) && $rev2) { // two specific revisions wanted
+            // make sure order is correct (older on the left)
+            if($rev1 < $rev2) {
+                $l_rev = $rev1;
+                $r_rev = $rev2;
+            } else {
+                $l_rev = $rev2;
+                $r_rev = $rev1;
+            }
+        } elseif($rev1) { // single revision given, compare to current
+            $r_rev = '';
+            $l_rev = $rev1;
+        } else { // no revision was given, compare previous to current
+            $r_rev = '';
+            $revs = $pagelog->getRevisions(0, 1);
+            $l_rev = $revs[0];
+            $REV = $l_rev; // store revision back in $REV
+        }
+
+        // when both revisions are empty then the page was created just now
+        if(!$l_rev && !$r_rev) {
+            $l_text = '';
+        } else {
+            $l_text = rawWiki($ID, $l_rev);
+        }
+        $r_text = rawWiki($ID, $r_rev);
+		
+		//dai modified
+		$l_rev = $diffInfo['lversion'];
+		$r_rev = $diffInfo['rversion'];
+		
+
+        list($l_head, $r_head, $l_minor, $r_minor) = html_diff_head_dai_define($diffInfo, $l_rev, $r_rev, null, false, $type == 'inline');
+    }
+
+    /*
+     * Build navigation
+     */
+    $l_nav = '';
+    $r_nav = '';
+    if(!$text) {
+        list($l_nav, $r_nav) = html_diff_navigation($pagelog, $type, $l_rev, $r_rev);
+    }
+    /*
+     * Create diff object and the formatter
+     */
+	 
+	// var_dump($l_text);
+	 //var_dump($r_text);
+	 $l_text = $diffInfo['ltext'];
+	 $r_text = $diffInfo['rtext'];
+	 
+    $diff = new Diff(explode("\n", $l_text), explode("\n", $r_text));
+
+    if($type == 'inline') {
+        $diffformatter = new InlineDiffFormatter();
+    } else {
+        $diffformatter = new TableDiffFormatter();
+    }
+    /*
+     * Display intro
+     */
+    if($intro) print p_locale_xhtml('diff');
+
+    /*
+     * Display type and exact reference
+     */
+    if(!$text) {
+        ptln('<div class="diffoptions group">');
+
+
+        $form = new Doku_Form(array('action' => wl()));
+        $form->addHidden('id', $ID);
+        $form->addHidden('rev2[0]', $l_rev);
+        $form->addHidden('rev2[1]', $r_rev);
+        $form->addHidden('do', 'diff');
+        $form->addElement(
+             form_makeListboxField(
+                 'difftype',
+                 array(
+                     'sidebyside' => $lang['diff_side'],
+                     'inline' => $lang['diff_inline']
+                 ),
+                 $type,
+                 $lang['diff_type'],
+                 '', '',
+                 array('class' => 'quickselect')
+             )
+        );
+        $form->addElement(form_makeButton('submit', 'diff', 'Go'));
+        $form->printForm();
+
+        ptln('<p>');
+        // link to exactly this view FS#2835
+        echo html_diff_navigationlink($type, 'difflink', $l_rev, $r_rev ? $r_rev : $INFO['currentrev']);
+        ptln('</p>');
+
+        ptln('</div>'); // .diffoptions
+    }
+
+    /*
+     * Display diff view table
+     */
+    ?>
+    <div class="table">
+    <table class="diff diff_<?php echo $type ?>">
+
+        <?php
+        //navigation and header
+        if($type == 'inline') {
+            if(!$text) { ?>
+                <tr>
+                    <td class="diff-lineheader">-</td>
+                    <td class="diffnav"><?php echo $l_nav ?></td>
+                </tr>
+                <tr>
+                    <th class="diff-lineheader">-</th>
+                    <th <?php echo $l_minor ?>>
+                        <?php echo $l_head ?>
+                    </th>
+                </tr>
+            <?php } ?>
+            <tr>
+                <td class="diff-lineheader">+</td>
+                <td class="diffnav"><?php echo $r_nav ?></td>
+            </tr>
+            <tr>
+                <th class="diff-lineheader">+</th>
+                <th <?php echo $r_minor ?>>
+                    <?php echo $r_head ?>
+                </th>
+            </tr>
+        <?php } else {
+            if(!$text) { ?>
+                <tr>
+                    <td colspan="2" class="diffnav"><?php echo $l_nav ?></td>
+                    <td colspan="2" class="diffnav"><?php echo $r_nav ?></td>
+                </tr>
+            <?php } ?>
+            <tr>
+                <th colspan="2" <?php echo $l_minor ?>>
+                    <?php echo $l_head ?>
+                </th>
+                <th colspan="2" <?php echo $r_minor ?>>
+                    <?php echo $r_head ?>
+                </th>
+            </tr>
+        <?php }
+
+        //diff view
+        echo html_insert_softbreaks($diffformatter->format($diff)); ?>
+
+    </table>
+    </div>
+<?php
+}
+
 
 /**
  * Create html for revision navigation

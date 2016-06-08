@@ -30,7 +30,7 @@ $conf['fmode']       = 0644;              //set file creation mode
 $conf['allowdebug']  = 0;                 //allow debug output, enable if needed 0|1
 
 /* Display Settings */
-$conf['recent']      = 20;                //how many entries to show in recent
+$conf['recent']      = 10;                //how many entries to show in recent
 $conf['recent_days'] = 7;                 //How many days of recent changes to keep. (days)
 //$conf['breadcrumbs'] = 10;                //how many recent visited pages to show
 $conf['breadcrumbs'] = 10;                //how many recent visited pages to show

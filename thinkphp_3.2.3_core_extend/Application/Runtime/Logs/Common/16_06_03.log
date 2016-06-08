@@ -1,0 +1,6 @@
+[ 2016-06-03T09:29:17+08:00 ] ::1 /thinkphp_3.2.3_core_extend/Public/dokuwiki/lib/images/blank1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Public
+

@@ -726,43 +726,27 @@
 		<script>
 			$("#sidebar").removeClass("menu-min");			
 			
-			$(document).ready(function() { 				
-				//var verShow = <?php echo json_encode($verShow['content']) ?> ;				
-				//$("#wiki__text").val(verShow);
-				
-				var verid = <?php echo $verShow['id']; ?>;
-				var version = <?php echo $verShow['version']; ?>;
-				//取消按钮
-				$("#edbtn__cancel").click(function(){
+			$(document).ready(function() { 	
+
+				var cur_version_id = <?php echo $id; ?>;
+				//显示跟目前版本的差异
+				$("button[name='do[diff]']").click(function(){
 					
-					$('#dw__editform').attr('action', '/svn/thinkphp_3.2.3_core_extend/index.php/Home/Autodesign/detail?id='+verid+'&version='+version);
+					$('#page__revisions').attr('action', '/svn/thinkphp_3.2.3_core_extend/index.php/Home/Autodesign/revisions?id='+cur_version_id+'&do=diff');
 					
-				});
-				
-				//预览按钮
-				$("#edbtn__preview").click(function(){
-					
-					$('#dw__editform').attr('action', '/svn/thinkphp_3.2.3_core_extend/index.php/Home/Autodesign/edit?id='+verid+'&do=preview&version='+version);
-					
-				});
-				
-				//保存按钮
-				$("#edbtn__save").click(function(){
-					$('#dw__editform').attr('action', '/svn/thinkphp_3.2.3_core_extend/index.php/Home/Autodesign/add?id='+verid+'&version='+version);
-				});
-				
+				});				
 			});
 		</script>
 		
 			<div class="page-content">
 				
-					<?php
- ?>	
 					<div class="col-xs-12">
 						<!-- PAGE CONTENT BEGINS -->
 						<h2 class="header smaller lighter blue">
+							
 							<?php echo ($topicArr["title"]); ?>            
-							&nbsp;<small>创建时间:<?php echo ($topicArr["create_time"]); ?>&nbsp;&nbsp;&nbsp;当前版本号:<?php echo ($verShow["version"]); ?></small>
+							&nbsp;<small>创建时间:<?php echo ($topicArr["create_time"]); ?>&nbsp;&nbsp;&nbsp;当前正在使用的版本号:<?php echo ($curverArr["version"]); ?></small>
+							
 						</h2>
 					</div><!-- /.col -->
 				

@@ -79,6 +79,15 @@ $showSidebar = $hasSidebar && ($ACT=='show');
 								html_show($PREVIEW_WIKI_CONTENT);
 								
 								break;
+							
+							case "revisions":
+								
+								html_revisions_dai_define($first, $versions, $topicArr['title'], $cur_version,$count);
+								break;
+								
+							case "diff":
+								html_diff_dai_define($diffInfo);
+								break;
 								
 							default:
 							

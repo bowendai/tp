@@ -71,7 +71,7 @@
 				
 				<div class="navbar-header pull-left">
 					<ul class="nav ace-nav">
-						<li class="light-blue">
+						<li class="light-blue nav-dropdown">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<!--<i class="icon-tasks"></i>-->
 								<span class="">导航下拉1</span>
@@ -99,7 +99,7 @@
 							</ul>
 						</li>
 					
-						<li class="light-blue">
+						<li class="light-blue nav-dropdown">
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<!--<i class="icon-tasks"></i>-->
 								<span class="">导航下拉2</span>
@@ -129,7 +129,7 @@
 							</ul>
 						</li>
 						
-						<li class="light-blue">
+						<li class="light-blue nav-dropdown">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
 								<span class="">导航下拉3</span>
 
@@ -151,7 +151,7 @@
 							</ul>
 						</li>
 						
-						<li class="light-blue">
+						<li class="light-blue nav-dropdown">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
 								<span class="">导航下拉4</span>
 
@@ -1967,6 +1967,12 @@
 				}
 				
 			})
+			
+			 $('.nav-dropdown').hover(function(){
+                    $(this).addClass("open");
+				},function(){
+                    $(this).removeClass("open");
+             });
 				
 		</script>
 	

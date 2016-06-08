@@ -1,19 +1,10 @@
-<html>
-
-  <!--<frameset rows="65,*" border=1 frameborder=1 framespacing=1>
-
-    <frame src="__URL__/top" name="top">
-
-    <frameset cols="20%,*">
-      <frame src="__URL__/left" name="left">
-      <frame src="__URL__/right" name="right">
-    </frameset>
-
-  </frameset>-->
-  <extend name="template/common" />	
-	<block name="main">
+<!DOCTYPE html>
+<html lang="en">
 	
-	<div>
+	<extend name="template/common" />
+	
+	<block name="main">
+	   <div>
 		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="__PUBLIC__/assets/css/jquery-ui-1.10.3.custom.min.css" />
@@ -25,12 +16,6 @@
 		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
 		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
 		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
-		
-		<style type="text/css">
-			#dw__toc{
-				display:none;
-			}
-		</style>
 
 		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
 		
@@ -63,63 +48,51 @@
 
 		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
 		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
-	
 		
 		<script>
-			$(document).ready(function(){
-				$("#sidebar").removeClass("menu-min");
+			$("#sidebar").removeClass("menu-min");			
 			
-				$("#createTopic").click(function(){
+			$(document).ready(function() { 	
+
+				var cur_version_id = <?php echo $id; ?>;
+				//显示跟目前版本的差异
+				$("button[name='do[diff]']").click(function(){
 					
-				});
+					$('#page__revisions').attr('action', '__URL__/revisions?id='+cur_version_id+'&do=diff');
+					
+				});				
 			});
-			
 		</script>
 		
-		
-		<div class="page-content">
-			
-			<div class="col-xs-12">
-				<a href="__URL__/create/id/{$navigation_id}"><button id="createTopic" type="button" class="btn  btn-success">创建话题</button></a>
-			</div>
-			<?php
-			
-				//require_once './Public/dokuwiki/doku.php';
-				//global $DAI; $DAI="123";
-				//act_dispatch(); 
-				//global $ID;
+			<div class="page-content">
 				
-				for($i = 0; $i < count($autoinfoArr); $i++){
-				
-					//$ID="autodesign:".$autoinfoArr[$i]["title"];
-					//$ID=$navigation_id.':'.$autoinfoArr[$i]["title"];
-					//$ID = $verArr[$i]['id'];
-			?>	
-				<!--<div class="row">-->
 					<div class="col-xs-12">
-						<!--<div class="col-sm-3">
-							<h2>welcome</h2>
-						</div>-->
+						<!-- PAGE CONTENT BEGINS -->
 						<h2 class="header smaller lighter blue">
-							<a href="__ROOT__/index.php/Home/autodesign/detail?id={$verArr[$i]['id']}&version={$verArr[$i]['version']}">{$autoinfoArr[$i].title}</a>
-							&nbsp;<small>创建时间:{$autoinfoArr[$i].create_time}&nbsp;&nbsp;&nbsp;当前正在使用版本号：{$verArr[$i].version}</small>
+							
+							{$topicArr.title}            
+							&nbsp;<small>创建时间:{$topicArr.create_time}&nbsp;&nbsp;&nbsp;当前正在使用的版本号:{$curverArr.version}</small>
+							
 						</h2>
-					</div>
-				<!--</div>
-				<div class="row">-->
+					</div><!-- /.col -->
+				
+				
 					<div class="col-xs-12">
-						<div class="well">
-							<font size=+1>
-								<?php 
-									echo   p_wiki_xhtml_dai_define($verArr[$i]['content']);
-									//p_wiki_xhtml($ID,$REV,true,$DATE_AT);break;//html_show();//include(template('thumbnail.php')); 
-								?>
-							</font>
-						</div>
+						<!--<div class="well">-->
+							<font size=+1><?php include(template('main.php')); ?></font>
+						<!--</div>-->
 					</div>
-				<!--</div>-->
-			<?php }?>
-		</div>
+				
+			</div><!-- /.page-content -->
+				
+
+			
+
+			<!--<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="icon-double-angle-up icon-only bigger-110"></i>
+			</a>-->
+	
+		
 	</div>
 	</block>
 	
